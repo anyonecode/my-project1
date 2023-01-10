@@ -1,0 +1,27 @@
+# my_tuple = ('sreehari')
+# print(my_tuple)
+# my_tuple1 = 12
+# print(my_tuple1)
+# my_tuple2 = ("apple","orange","banana")
+# a = list(my_tuple2)
+# a.insert(1,"grappe")
+# print(a)
+# my_tuple3 = ['sreehari',[2,3,4,5],'hari',(2,3,4)]
+# my_tuple3[1].remove(3)
+# # my_tuple3[1].co
+# print(my_tuple3)
+# print(my_tuple3[3][-1:0:-1])
+mytuple = ("sreehari",1,2,3,5,"hello",[1,4,23,3])
+mytuple1 = any(mytuple)
+mytuple2 = all(mytuple)
+y = enumerate(mytuple)
+# print(list(y))
+print(dict(y))
+mytuple4 = (1,2,33,45,6,23,2)
+print(max(mytuple4))
+print(min(mytuple4))
+print(sorted(mytuple4))
+print(sum(mytuple4))
+print(mytuple1)
+print(mytuple2)
+

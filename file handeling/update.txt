@@ -1,0 +1,1 @@
+UPDATE `textdbs`.`hari` SET `email` = 'sreehar@gmail.com' WHERE (`id` = '1');
